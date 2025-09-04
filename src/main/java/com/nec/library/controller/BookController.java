@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/books")
-@CrossOrigin(origins = "http://localhost:5173") // adjust for your frontend port
+@CrossOrigin(origins = "https://library-frontend-hw0m.onrender.com") // adjust for your frontend port
 public class BookController {
 
     private final BookService service;
